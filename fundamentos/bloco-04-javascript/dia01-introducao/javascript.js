@@ -18,7 +18,7 @@
 
 //console.log(birthCity);
 
-// Tipos primitivos, tipagem dinâmica e Operações Aritméticas
+/* Tipos primitivos, tipagem dinâmica e Operações Aritméticas
 
 let patientId = '50';
 let isEnrolled = true;
@@ -40,4 +40,18 @@ const heigth = 8;
 const area = base * heigth;
 console.log(area);
 const perimeter = base + heigth + base + heigth;
-console.log(perimeter);
+console.log(perimeter); */
+
+// If e Else
+
+const nota = 30;
+
+if (nota>= 80) {
+  console.log("Parabéns, você foi aprovada(o)!");
+} else if (nota < 80 && nota >= 60) {
+  console.log("Você está na nossa lista de espera");
+} else if (nota < 60) {
+  console.log("Você foi reprovada(o)");
+} else {
+  console.log("Faça o teste");
+}
