@@ -56,6 +56,7 @@ if (nota>= 80) {
   console.log("Faça o teste");
 } */
 
+/*
 // Operadores lógicos
 // AND 
 
@@ -84,4 +85,27 @@ if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'qu
   console.log("Oba, mais um dia de aprendizado na Trybe >:D")
 } else {
   console.log("FINALMENTE, descanso merecido UwU")
+}
+
+*/
+
+// Switch e Case
+
+let statusProcesso = "aprovada";
+
+switch (statusProcesso) {
+  case "aprovada":
+    console.log("Você foi aprovada(o)");
+    break;
+
+  case "lista":
+    console.log("Você está na lista de espera");
+    break;
+  
+  case "reprovada":
+    console.log("Você foi reprovada(o)");
+    break;
+
+  default:
+    console.log("Não se aplica");
 }
