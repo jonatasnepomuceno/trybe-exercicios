@@ -38,9 +38,7 @@ let maiorValor = 0;
 for (let i5 = 0; i5 < numbers.length; i5 +=1) {
   if (numbers[i5] >= maiorValor) {
     maiorValor = numbers[i5];
-  } else {
-
-  }
+  } 
 }
 console.log("Maior valor = " + maiorValor);
 
@@ -65,9 +63,7 @@ let menorValor = 1000;
 for (let i7 = 0; i7 < numbers.length; i7 +=1) {
   if (numbers[i7] <= menorValor) {
     menorValor = numbers[i7];
-  } else {
-
-  }
+  } 
 }
 console.log("Menor valor = " + menorValor);
 
