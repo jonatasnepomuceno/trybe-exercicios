@@ -34,7 +34,7 @@ if (media3 > 20) {
 
 // Exercicio 5
 
-let maiorValor = 0;
+let maiorValor = numbers[0];
 for (let i5 = 0; i5 < numbers.length; i5 +=1) {
   if (numbers[i5] >= maiorValor) {
     maiorValor = numbers[i5];
@@ -49,17 +49,17 @@ let numPar = 0;
 for (let i6 = 0; i6 < numbers.length; i6 +=1) {
   if (numbers[i6] % 2 == 1) {
     numImpar = numImpar + 1;
-  } else {
-    numPar = numPar + 1;
-  }
+  } 
 }
-
-console.log("Qtd n° impares = " + numImpar);
-//console.log("Qtd n° pares = " + numPar);
+if (numImpar > 0) {
+  console.log("Qtd n° impares = " + numImpar); 
+} else {
+  console.log("Nenhum número impar")
+}
 
 // Exercicio 7 
 
-let menorValor = 1000;
+let menorValor = numbers[0];
 for (let i7 = 0; i7 < numbers.length; i7 +=1) {
   if (numbers[i7] <= menorValor) {
     menorValor = numbers[i7];
