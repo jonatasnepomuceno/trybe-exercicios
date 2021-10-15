@@ -2,7 +2,7 @@
 // Ajuda do Jotta Novaes
 let asterisco = '*';
 let espaco = ' ';
-let n = 11;
+let n = 5;
 /* n precisa ser impar*/
 let mensagem = '';
 for (i = n; i > 0 ; i -= 2 ) {
